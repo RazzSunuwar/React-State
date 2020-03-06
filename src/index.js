@@ -20,3 +20,5 @@ class Car extends React.Component {
 
 ReactDOM.render(<Car />, document.getElementById('root'));
 
+// Note: The state object can contain as many properties as you like:
+
