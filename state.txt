@@ -10,3 +10,7 @@ When the state object changes, the component re-renders.
 Creating the state object
 The state object is initialized in the constructor:
 
+Using the state Object
+
+Refer to the state object anywhere in the component by using this.state.propertyname
+syntax:
