@@ -2,12 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 // Example
-// Specifiy the state object in the constructor method:
+// Specifiy all the properties your component need:
 
 class Car extends React.Component {
     constructor(props){
         super(props);
-        this.state = {brand: "Ford"};
+        this.state = {
+            brand: "Ford",
+            model: "Mustang",
+            color: "red",
+            year: 1990
+        };
     }
     render(){
         return(
